@@ -22,7 +22,7 @@ targetCompatibility = JavaVersion.VERSION_11
 wpi.maven.useFrcMavenLocalDevelopment = true
 wpi.wpilibVersion = '2020.424242.+'
 
-def ROBOT_MAIN_CLASS = "frc.robot.RobotKt"
+def ROBOT_MAIN_CLASS = "frc.robot.Robot"
 
 sourceSets {
     main.kotlin.srcDirs += 'src/generated/kotlin'
